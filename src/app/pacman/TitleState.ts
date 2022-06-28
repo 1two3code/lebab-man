@@ -150,7 +150,7 @@ export class TitleState extends _BaseState {
         this.game.drawString(x, y, temp, ctx);
 
         // Copyright
-        temp = '2015 OLD MAN GAMES';
+        temp = '2022 NETLAB ARCADE';
         x = (SCREEN_WIDTH - charWidth * temp.length) / 2;
         y = game.getHeight() - 20;
         this.game.drawString(x, y, temp, ctx);
