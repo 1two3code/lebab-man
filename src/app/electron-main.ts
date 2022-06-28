@@ -18,7 +18,7 @@ const createWindow: (launchInfo: any) => void = (launchInfo: any): void => {
             nodeIntegration: true,
             contextIsolation: false,
         },
-        width: 224, height: 288,
+        width: 224 * 3.75, height: 288 * 3.75,
         useContentSize: true,
         autoHideMenuBar: true
     });
