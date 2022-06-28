@@ -520,7 +520,7 @@ export class PacmanGame extends Game {
                     this.stretchMode = StretchMode.STRETCH_NONE;
                     break;
             }
-            this.setStatusMessage('Stretch mode: ' + StretchMode[this.stretchMode]);
+            // this.setStatusMessage('Stretch mode: ' + StretchMode[this.stretchMode]);
             CanvasResizer.resize(this.canvas, this.stretchMode);
         }
     }
